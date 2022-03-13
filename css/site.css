@@ -5,6 +5,12 @@
 
 body {
   background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612178951_99-p-fioletovii-fon-yaponiya-122.jpg);
+  font-family: 'Nunito','Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+}
+
+.icon {
+  width: 10%;
+  left: 20px;
 }
 
 /* Header */
@@ -33,13 +39,18 @@ li {
   width: 25px;
 }
 
+.rules {
+  width: 20px;
+}
+
 .menu-top {
   margin-right: 50px;
+  margin-top: 25px;
   display: flex;
 }
 
 .menu {
-  width: 250px;
+  width: 200px;
   display: inline-block;
 }
 
@@ -60,7 +71,7 @@ li {
 .submenu {
   position: absolute;
   visibility: hidden;
-  width: 130px;
+  width: 150px;
   opacity: 0;
   background-color: #2b532e;
 }
@@ -102,19 +113,75 @@ li {
 
 /* Main */
 
-a {
+.link {
   text-decoration: none;
   color: #ff0000;
 }
 
-a:hover {
+.link:hover {
     color: #ffffff;
+}
+
+.rules-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.rules-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 25px;
 }
 
 h1 {
   color: #ffffff;
+  font-size: 21px;
 }
 
-p {
+.rules-text1 {
   color: #ffffff;
+  font-size: 21px;
+  margin-left: 15%;
 }
+
+.rules-title {
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 50%;
+}
+
+.rules-title2 {
+  text-align: center;
+}
+
+hr { 
+  margin-top: 25px;
+}
+
+.rules-text {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.box {
+  display: block;
+  width: 70%;
+  margin-top: 100px;
+  margin-left: 200px;
+  background: #48005a;
+}
+
+.ixdex-title {
+  color: #ffffff;
+  margin: 25px;
+}
+
+.index-text {
+  color: #ffffff;
+  margin: 25px;
+  font-size: 20px;
+}
+
