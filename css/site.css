@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612178951_99-p-fioletovii-fon-yaponiya-122.jpg);
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  color: #ff0000;
+}
+
+.menu {
+  width: 250px;
+  display: inline-block;
+}
+
+.menu .submenu {
+  display: inline-block;
+  background-color: #810000;
+  padding: 5px;
+}
+
+.submenu .menu-item {
+  width: 100%;
+}
+
+.submenu .menu-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.menu-item {
+  padding: 5px;
+  margin: 5px;
+  transition: 1s;
+}
+
+.menu-item:hover {
+  background-color: #810000;
+  cursor: pointer;
+}
+
+.menu .meni-item {
+  display: inline-block;
+}
+
+.menu a {
+  display: block;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
