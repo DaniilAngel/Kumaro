@@ -5,11 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Кумаро</title>
-  <link rel="stylesheet" type="text/css" href="css/site.css" />
+  <link rel="stylesheet" type="text/css" href="css/site.css"/>
   <link rel="icon" type="image/png" href="https://krot.info/uploads/posts/2021-03/1615772331_6-p-tatu-devyatikhvostogo-lisa-6.png" sizes="32x32">
+  <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 </head>
 <body>
-<header>
+<header></header>
   <div class="wrapper">
     <img class="icon" src="https://krot.info/uploads/posts/2021-03/1615772331_6-p-tatu-devyatikhvostogo-lisa-6.png" alt="">
     <ul class="menu-top">
@@ -32,15 +34,19 @@
   </div>
 </header>
 <main>
-  <h1 class="ixdex-title">
-    Привет, ты попал на сайт Кумаро, тут будет китцунэ контент и может быть другие контенты (сами узнаете, так что ждите).
-  </h1>
-  <p class="index-text">
-    У этого сайта есть группа вк, канал телеграм и инст. все ссылки будут в отдельном сайте.
-  </p>
-  <p class="index-text1">
-    Если будут вопросы, идеи, баги или что-то другое, то пишите мне в личку вк или группу вк, телеграмм чат или где можно.
-  </p>
+  <form action="sendMessage.php" method="post" name="form">
+    <p class="is-h">Автор:<br> <input type="text" name="author" class="is-input" id="author"></p>
+    <p class="is-h">Текст сообщения:<br><textarea name="message" rows="5" cols="50" id="message"></textarea></p>
+    <input name="js" type="hidden" value="no" id="js">
+    <button type="submit" id='click' name="button" class="is-button">Отправить</button>
+  </form>
+  <div class="clear">
+
+  </div>
+  <p>Комметарии к статье</p>
+  <div id="commentBlock">
+    
+  </div>
 </main>
 </body>
 </html>
