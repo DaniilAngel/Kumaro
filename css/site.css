@@ -43,6 +43,10 @@ li {
   width: 20px;
 }
 
+.partner {
+  width: 25px;
+}
+
 .menu-top {
   margin-right: 50px;
   margin-top: 25px;
@@ -122,6 +126,17 @@ li {
     color: #ffffff;
 }
 
+.link-partner {
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.link-partner:hover {
+  color: #ffffff;
+  font-size: 25px;
+}
+
 .rules-link {
   color: #ffffff;
   text-decoration: none;
@@ -129,6 +144,19 @@ li {
 }
 
 .rules-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.partner-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.partner-link:hover {
   text-decoration: underline;
   cursor: pointer;
   color: #ffffff;
@@ -144,6 +172,12 @@ h1 {
   color: #ffffff;
   font-size: 21px;
   margin-left: 15%;
+}
+
+.partner-text1 {
+  color: #ffffff;
+  font-size: 21px;
+  margin-left: 5%;
 }
 
 .rules-title {
@@ -185,3 +219,41 @@ hr {
   font-size: 20px;
 }
 
+.index-text1 {
+  color: #ffffff;
+  margin: 25px;
+  font-size: 25px;
+  font-family: serif;
+}
+
+.partner1 {
+  margin: 20px;
+  width: 26%;
+  background-color: #7e0000;
+}
+
+.ava {
+  margin: 20px;
+  width: 300px;
+}
+
+.link-annime {
+  text-align: center;
+  margin: 25px;
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.link-annime:hover {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.text-annime {
+  text-align: center;
+  margin: 25px;
+  color: #ff0000;
+  font-size: 25px;
+}
