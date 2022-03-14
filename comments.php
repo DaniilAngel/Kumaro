@@ -43,9 +43,9 @@
   <div class="clear">
 
   </div>
-  <p>Комметарии к статье</p>
+  <p class="tex">Комметарии к статье</p>
   <div id="commentBlock">
-    
+
   </div>
 </main>
 </body>
